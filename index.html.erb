@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Like-a-robot</title>
+  </head>
+  <body>
+
+<h1><%= robot.say_hi %></h1>
+<h1><%= robot.say_name %></h1>
+<h1><%= change.say_name %></h1>
+<h1><%= bender.bend(ARGV[1])%></h1>
+
+<ul>
+  <% class_robots.each do |name| %>
+  <li><%= name %></li>
+  <%end%>
+</ul>
+
+
+
+  </body>
+</html>
